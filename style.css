@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020c1c;
+  font-family: Poppins, sans-serif;
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  margin: 2.5rem 0;
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.form_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.todo_input {
+  height: 2.4rem;
+  width: 25rem;
+  margin-right: 1.1rem;
+  padding-left: 1rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 3rem;
+  outline: none;
+}
+
+.submit_btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+
+.fa-plus {
+  font-size: 1.2rem;
+}
+
+.todo_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 4.5rem;
+}
+
+.todo_wrapper {
+  display: inline;
+  background-color: #fff;
+
+  padding: 0.7rem 1.5rem;
+
+  border: none;
+  border-radius: 3rem;
+}
+
+.todo_text {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.todo_wrapper:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
