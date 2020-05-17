@@ -16,7 +16,6 @@
     <link href="./style.css" rel="stylesheet" />
     <title>ToDo List</title>
   </head>
-
   <body>
     <header>ToDo List</header>
     <div class="form_wrapper">
@@ -30,7 +29,12 @@
     <div class="todo_container">
       <ul class="todo_list"></ul>
     </div>
-    <script src="./store.js"></script>
-    <script src="./app.js"></script>
+    <div class="delete_all_wrapper">
+      <button class="delete_all_btn">Delete all</button>
+    </div>
+    <!-- JS Files -->
+    <script src="./js/elements.js"></script>
+    <script src="./js/models/ToDos.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
